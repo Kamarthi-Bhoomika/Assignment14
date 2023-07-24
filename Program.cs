@@ -81,14 +81,17 @@ namespace Assignment14_BubbleSort
             Print(arr);
             Console.WriteLine($"Array Size {arr.Length} \tTime Take {stopwatch.Elapsed.TotalMilliseconds} milliseconds");
 
-            Console.WriteLine("\n***********************************");
+            Console.WriteLine("\n**********************************************");
+            int[] arr2 = generateArray();
+            Console.WriteLine("Array Before Sorting");
+            Print(arr2);
             Stopwatch stopwatch2 = new Stopwatch();
             stopwatch2.Start();
-            InsertionSort(arr);
+            InsertionSort(arr2);
             stopwatch2.Stop();
-            Console.WriteLine("Array After Insertion Sorting");
-            Print(arr);
-            Console.WriteLine($"Array Size {arr.Length} \tTime Take {stopwatch2.Elapsed.TotalMilliseconds} milliseconds");
+            Console.WriteLine("\nArray After Insertion Sorting");
+            Print(arr2);
+            Console.WriteLine($"Array Size {arr2.Length} \tTime Take {stopwatch2.Elapsed.TotalMilliseconds} milliseconds");
 
             Console.ReadKey();
         }

@@ -1,9 +1,9 @@
 ﻿
 Bubble sort continuously swap the adjacent elements until it is sorted in ascending order.
 
-Time Complexity of Bubble Sort is 0.29 for array of 100 elements.
+Time Complexity of Bubble Sort is 0.29ms for array of 100 elements.
 
-Insertion sort time complexity: 0.191, 0.14, 0.18, 0.17, 0.27, 0.21 = 0.18 
+Insertion sort time complexity: 0.191, 0.14, 0.18, 0.17, 0.27, 0.21 = 0.18ms
 
 Insertion sort Time Complexity is better when compared to Bubble sort.
 
@@ -11,10 +11,10 @@ Advantage of Bubble sort is it easy to implement and it is easiest sorting algor
 And only disadvantage is it does not perform well with large number of items.
 
 Performance Analysis of Bubble Sort: 
-	Time Complexity for array of 100 elements: 0.24 , 0.26 , 0.22 , 0.25 , 0.24 , 0.21
-	Time Complexity for array of 500 elements: 1.20 , 1.06 , 1.40 , 1.80 , 1.42 , 1.62
-	Time Complexity for array of 5000 elements: 230.56 , 303.95 , 180.19 , 149.30 , 180.93
-	Time Complexity for array of 10000 elements: 996.54 , 991.40 , 687.76 , 701.78 , 747.57
+	Time Complexity for array of 100 elements in milliseconds: 0.24 , 0.26 , 0.22 , 0.25 , 0.24 , 0.21
+	Time Complexity for array of 500 elements in milliseconds: 1.20 , 1.06 , 1.40 , 1.80 , 1.42 , 1.62
+	Time Complexity for array of 5000 elements in milliseconds: 230.56 , 303.95 , 180.19 , 149.30 , 180.93
+	Time Complexity for array of 10000 elements in milliseconds: 996.54 , 991.40 , 687.76 , 701.78 , 747.57
 
 Bubble sort concludes that it is the easiest way to sort the elements,
 thus have high time complexity compared to other sorting algorithms. 
